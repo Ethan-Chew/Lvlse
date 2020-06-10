@@ -3,7 +3,7 @@
 const config = require('./config.json');
 const fs = require("fs");
 let db = JSON.parse(fs.readFileSync("./database.json", "utf8"));
-const Token = 'NjAzNTYwNTQyMDQ0Njg0Mjk4.XW-Edw.latRbS5SD_YuXfm-XQQNBLyrf_E';
+const Token = '';
 
 client.on("message", message => {
     if (message.author.bot) return; // ignore bots
